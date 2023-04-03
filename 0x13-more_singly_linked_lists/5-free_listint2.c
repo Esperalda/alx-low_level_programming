@@ -16,7 +16,7 @@ if (head)
 while (*head != NULL)
 {
 lst = *head;
-*head = lst->link;
+*head = lst->next;
 free(lst);
 }
 }
