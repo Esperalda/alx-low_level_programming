@@ -13,7 +13,7 @@ listint_t *lst = *head;
 listint_t *lstst;
 int n;
 
-if (head == NULL || lst == NULL)
+if (head == 0 || lst == 0)
 return (0);
 
 lstst = lst->next;
