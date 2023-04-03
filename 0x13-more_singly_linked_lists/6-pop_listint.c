@@ -19,7 +19,7 @@ return (0);
 lstst = lst->next;
 n = lst->n;
 free(lst);
-lstst = *head;
+*head = lstst;
 
 return (n);
 }
