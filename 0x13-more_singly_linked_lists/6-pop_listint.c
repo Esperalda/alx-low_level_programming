@@ -16,7 +16,7 @@ int n;
 if (head == NULL || lst == NULL)
 return (0);
 
-lstst = lst->link;
+lstst = lst->next;
 n = lst->n;
 free(lst);
 lstst = *head;
