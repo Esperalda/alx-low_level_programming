@@ -22,7 +22,7 @@ while (lst != 0)
 lstst = lst;
 lst = lst->next;
 
-count++;
+count += 1;
 
 printf("[%p] %d\n", (void *)lstst, lstst->n);
 
