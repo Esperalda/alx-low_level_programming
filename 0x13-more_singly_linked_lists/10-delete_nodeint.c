@@ -50,7 +50,7 @@ while (count < index && index != 0)
 {
 lstst = lst;
 lst = lst->next;
-lststst = lstst->next;
+lststst = lst->next;
 count++;
 }
 if (index == 0)
