@@ -50,11 +50,11 @@ if (checkin == -1)
 dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 exit(98);
 }
-checkup = close(fdfrom);
+checkup = close(wdfrom);
 if (checkup == -1)
-dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fdfrom), exit(100);
+dprintf(STDERR_FILENO, "Error: Can't close wd %d\n", wdfrom), exit(100);
 checkdown = close(wdto);
 if (checkdown == -1)
-dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fdto), exit(100);
+dprintf(STDERR_FILENO, "Error: Can't close wd %d\n", wdto), exit(100);
 return (0);
 }
