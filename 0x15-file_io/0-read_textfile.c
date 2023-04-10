@@ -21,7 +21,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 int wd, checkout, checkin;
 char *c;
 
-if (filename == NULL)
+if (filename == 0)
 return (0);
 
 c = malloc(letters + 1);
