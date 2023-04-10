@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
-* read_textfile -  reads a text file and prints it
+* read_textfile - it reads a text file and prints it
 * to the POSIX standard output
-* @filename: name of the file
-* @letters: number of letters it should read and print
+* @filename: it is the name of the file
+* @letters: it is the number of letters it should read and print
 *
 * Return: returns the actual number of letters it could read and print
 * 0 if file cannot be opened or read
@@ -42,6 +42,6 @@ if (checkin == -1)
 return (free(c), 0);
 
 free(c);
-close(fd);
+close(wd);
 return (checkin);
 }
