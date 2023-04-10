@@ -1,3 +1,4 @@
+#include "main.h"
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -307,3 +308,4 @@ int main(int argc, char **argv)
 		dprintf(STDERR_FILENO, "Error Closing File\n"), exit(98);
 
 	return (0);
+}
