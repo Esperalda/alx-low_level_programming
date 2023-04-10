@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-
 /**
 * append_text_to_file - A function that appends text at the end of a file.
 *
